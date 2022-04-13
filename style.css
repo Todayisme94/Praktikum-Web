@@ -1,0 +1,189 @@
+ul {
+    list-style: none;
+}
+
+.footer {
+    margin-top: 60px;
+    background-color: rgb(31, 31, 31);
+    padding: 40px;
+    height: 170px;
+}
+
+.span4 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.span4 ul h4 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 0, 90);
+}
+
+.span4 .social-links h4 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 0, 90);
+}
+
+.span4 ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    margin-bottom: 1px;
+    display: block;
+}
+
+#copyright {
+    display: flex;
+    font-size: 14px;
+    color: #ffffff;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+}
+
+.span4 .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(192, 0, 90);
+}
+
+/*peratauran widget sidebar*/
+#sidebar{
+    margin-top: 9px;
+    margin-right: 20px;
+    float: right;
+}
+
+/*peratauran widget sidebar*/
+.widged{
+    width: 100%;
+    font-size: 95%;
+    margin: 0px 0px 5px 0px;
+}
+
+/*peraturan huruf judul widged*/
+.judulwidged{
+    font-family: 'poppins';
+    border-radius: 10px;
+    background: rgb(158, 0, 74);
+    padding: 5px 10px 5px 10px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.widged ul{
+    margin : 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+.widged li a{
+    color: #000000;
+    border-bottom: 1px dotted #cccccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    padding: 4px 5px 3px 10px;
+}
+
+/*peraturan isi*/
+#isi{
+    padding: 10px;
+    width: 70%;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 5px;
+}
+
+/*peraturan postingan*/
+.isipostingan{
+    width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/*pengaturan gambar yang di halaman depan*/
+.gambardepan{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-right: 25px;
+    margin-top: 3px;
+    padding: 1px;
+    border: 1px solid #dddddd;
+}
+
+/*peraturan heading2 "judul*/
+.isipostingan h2{
+    float: bottom;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+/*peraturan ancjor atau link yang ada di isipostingan*/
+.isipostingan a{
+    text-decoration: none;
+}
+
+.isipostingan a:hover{
+    color: rgb(158, 0, 74)
+}
+
+.isipostingan11{
+    background-color: #bc9d64;
+    width: 98%;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.isipostingan11 h2{
+    text-align: center;
+    color: maroon;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gambarpostingan1{
+    width: 230px;
+    height: 250px;
+    float: right;
+    margin: 10px 5px 5px 10px;
+}
+
+
+.profil{
+    width: 200px;
+    height: 250px;
+    display: block;
+    float: right;
+    padding-right: 5px;
+}
+
+.profil h2{
+    text-align: center;
+    color: maroon;
+    font-size: 20px;
+    font-weight: bold;
+}
