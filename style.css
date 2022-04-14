@@ -36,7 +36,6 @@ ul {
     text-decoration: none;
     font-weight: 300;
     color: #bbbbbb;
-    margin-bottom: 1px;
     display: block;
 }
 
@@ -53,7 +52,6 @@ ul {
     height: 40px;
     width: 40px;
     background-color: #fff;
-    margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -90,24 +88,21 @@ ul {
     margin-right: 35px;
     padding: 5px;
     width: 27%;
-    position: relative;
     float: right;
 }
 
-/*peratauran widget sidebar*/
 .widged {
     width: 100%;
     font-size: 95%;
     margin: 0px 0px 5px 0px;
 }
 
-/*peraturan huruf judul widged*/
+/*peraturan huruf sidebar*/
 .judulwidged {
     font-family: 'poppins';
     border-radius: 10px;
     background: rgb(9, 255, 0);
     padding: 5px 10px 5px 10px;
-    margin: 0px 0px 0px 0px;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -137,7 +132,6 @@ ul {
     height: auto;
     background-color: #ffffff;
     position: relative;
-    margin-top: 5px;
 }
 
 #isiberita {
@@ -145,7 +139,6 @@ ul {
     width: 70%;
     height: auto;
     background-color: #ffffff;
-    margin-top: 5px;
 }
 
 /*peraturan postingan*/
@@ -173,7 +166,6 @@ ul {
     width: 50px;
     margin-right: 15px;
     margin-top: 3px;
-    padding: 1px;
 }
 
 /*peraturan heading2 "judul*/
@@ -186,7 +178,6 @@ ul {
     margin-bottom: 3px;
 }
 
-/*peraturan ancjor atau link yang ada di isipostingan*/
 .isipostingan a {
     text-decoration: none;
 }
@@ -201,4 +192,9 @@ ul {
     height: 450px;
     float: top;
     margin: 10px 5px 5px 10px;
+}
+
+/*pagination*/
+.pagination{
+    margin-left: 15px;
 }
