@@ -1,3 +1,4 @@
+/*Footer*/
 ul {
     list-style: none;
 }
@@ -47,7 +48,7 @@ ul {
     background-color: rgb(31, 31, 31);
 }
 
-.span4 .social-links a{
+.span4 .social-links a {
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -59,8 +60,32 @@ ul {
     color: rgb(9, 255, 0);
 }
 
+/*ini pengaturan searchbar*/
+.search-container input[type=text] {
+    padding: 5px;
+    width: 87%;
+    margin-top: 0px;
+    font-size: 14px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.search-container button {
+    float: right;
+    padding: 10px 10px;
+    margin-right: 3px;
+    background: #ddd;
+    font-size: 8px;
+    cursor: pointer;
+    border: 1px solid #EEEEEE;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.search-container button img {
+    width: 15px;
+}
+
 /*peratauran widget sidebar*/
-#sidebar{
+#sidebar {
     margin-right: 35px;
     padding: 5px;
     width: 27%;
@@ -69,14 +94,14 @@ ul {
 }
 
 /*peratauran widget sidebar*/
-.widged{
+.widged {
     width: 100%;
     font-size: 95%;
     margin: 0px 0px 5px 0px;
 }
 
 /*peraturan huruf judul widged*/
-.judulwidged{
+.judulwidged {
     font-family: 'poppins';
     border-radius: 10px;
     background: rgb(9, 255, 0);
@@ -89,13 +114,13 @@ ul {
     margin-bottom: 5px;
 }
 
-.widged ul{
-    margin : 0px 0px 0px 0px;
+.widged ul {
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     list-style-type: none;
 }
 
-.widged li a{
+.widged li a {
     color: #000000;
     text-align: justify;
     text-decoration: none;
@@ -105,7 +130,7 @@ ul {
 }
 
 /*peraturan isi*/
-#isi{
+#isi {
     padding: 10px;
     width: 70%;
     height: auto;
@@ -114,7 +139,7 @@ ul {
     margin-top: 5px;
 }
 
-#isiberita{
+#isiberita {
     padding: 30px;
     width: 70%;
     height: auto;
@@ -123,7 +148,7 @@ ul {
 }
 
 /*peraturan postingan*/
-.isipostingan{
+.isipostingan {
     width: 98%;
     height: 150px;
     margin-bottom: 10px;
@@ -131,7 +156,7 @@ ul {
 }
 
 /*pengaturan gambar yang di halaman depan*/
-.gambardepan{
+.gambardepan {
     float: left;
     height: 150px;
     width: 150px;
@@ -141,7 +166,7 @@ ul {
     border: 1px solid #dddddd;
 }
 
-.gambarsidebar{
+.gambarsidebar {
     float: left;
     height: 50px;
     width: 50px;
@@ -151,7 +176,7 @@ ul {
 }
 
 /*peraturan heading2 "judul*/
-.isipostingan h2{
+.isipostingan h2 {
     float: bottom;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -161,15 +186,15 @@ ul {
 }
 
 /*peraturan ancjor atau link yang ada di isipostingan*/
-.isipostingan a{
+.isipostingan a {
     text-decoration: none;
 }
 
-.isipostingan a:hover{
+.isipostingan a:hover {
     color: rgb(9, 255, 0);
 }
 
-.gambarpostingan{
+.gambarpostingan {
     justify-items: center;
     width: 800px;
     height: 450px;
