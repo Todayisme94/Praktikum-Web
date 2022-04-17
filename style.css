@@ -1,200 +1,200 @@
 /*Footer*/
 ul {
-    list-style: none;
+    list-style              : none;
 }
 
 .footer {
-    margin-top: 60px;
-    background-color: rgb(31, 31, 31);
-    padding: 40px;
-    height: 170px;
+    margin-top              : 60px;
+    background-color        : rgb(31, 31, 31);
+    padding                 : 40px;
+    height                  : 170px;
 }
 
 .span4 {
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    font-size: 18px;
-    text-transform: capitalize;
-    display: flex;
-    justify-content: space-between;
+    font-family             : 'Poppins', sans-serif;
+    color                   : #fff;
+    font-size               : 18px;
+    text-transform          : capitalize;
+    display                 : flex;
+    justify-content         : space-between;
 }
 
 .span4 ul h4 {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    text-decoration-color: rgb(9, 255, 0);
+    color                   : rgb(255, 255, 255);
+    text-decoration         : underline;
+    text-decoration-color   : rgb(9, 255, 0);
 }
 
 .span4 .social-links h4 {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    text-decoration-color: rgb(9, 255, 0);
+    color                   : rgb(255, 255, 255);
+    text-decoration         : underline;
+    text-decoration-color   : rgb(9, 255, 0);
 }
 
 .span4 ul li a {
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
+    font-size               : 14px;
+    text-decoration         : none;
+    font-weight             : 300;
+    color                   : #bbbbbb;
+    display                 : block;
 }
 
 #copyright {
-    display: flex;
-    font-size: 14px;
-    color: #ffffff;
-    justify-content: center;
-    background-color: rgb(31, 31, 31);
+    display                 : flex;
+    font-size               : 14px;
+    color                   : #ffffff;
+    justify-content         : center;
+    background-color        : rgb(31, 31, 31);
 }
 
 .span4 .social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: #fff;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: rgb(9, 255, 0);
+    display                 : inline-block;
+    height                  : 40px;
+    width                   : 40px;
+    background-color        : #fff;
+    text-align              : center;
+    line-height             : 40px;
+    border-radius           : 50%;
+    color                   : rgb(9, 255, 0);
 }
 
 /*ini pengaturan searchbar*/
 .search-container input[type=text] {
-    padding: 5px;
-    width: 87%;
-    margin-top: 0px;
-    font-size: 14px;
-    border-color: rgb(9, 255, 0);
-    border-radius: 25px 25px 25px 25px;
+    padding                 : 5px;
+    width                   : 87%;
+    margin-top              : 0px;
+    font-size               : 14px;
+    border-color            : rgb(9, 255, 0);
+    border-radius           : 25px 25px 25px 25px;
 }
 
 .search-container button {
-    float: right;
-    padding: 10px 10px;
-    margin-right: 3px;
-    background: #ddd;
-    font-size: 8px;
-    cursor: pointer;
-    border: 1px solid #EEEEEE;
-    border-radius: 25px 25px 25px 25px;
+    float                   : right;
+    padding                 : 10px 10px;
+    margin-right            : 3px;
+    background              : #ddd;
+    font-size               : 8px;
+    cursor                  : pointer;
+    border                  : 1px solid #EEEEEE;
+    border-radius           : 25px 25px 25px 25px;
 }
 
 .search-container button img {
-    width: 15px;
+    width                   : 15px;
 }
 
 /*peratauran widget sidebar*/
 #sidebar {
-    margin-right: 35px;
-    padding: 5px;
-    width: 27%;
-    float: right;
+    margin-right            : 35px;
+    padding                 : 5px;
+    width                   : 27%;
+    float                   : right;
 }
 
 .widged {
-    width: 100%;
-    font-size: 95%;
-    margin: 0px 0px 5px 0px;
+    width                   : 100%;
+    font-size               : 95%;
+    margin                  : 0px 0px 5px 0px;
 }
 
 /*peraturan huruf sidebar*/
 .judulwidged {
-    font-family: 'poppins';
-    border-radius: 10px;
-    background: rgb(9, 255, 0);
-    padding: 5px 10px 5px 10px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 5px;
+    font-family             : 'poppins';
+    border-radius           : 10px;
+    background              : rgb(9, 255, 0);
+    padding                 : 5px 10px 5px 10px;
+    text-align              : center;
+    color                   : white;
+    font-weight             : bold;
+    font-size               : 15px;
+    margin-bottom           : 5px;
 }
 
 .widged ul {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    list-style-type: none;
+    margin                  : 0px 0px 0px 0px;
+    padding                 : 0px 0px 0px 0px;
+    list-style-type         : none;
 }
 
 .widged li a {
-    color: #000000;
-    text-align: justify;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
-    padding: 4px 5px 3px 10px;
+    color                   : #000000;
+    text-align              : justify;
+    text-decoration         : none;
+    display                 : block;
+    margin-bottom           : 5px;
+    padding                 : 4px 5px 3px 10px;
 }
 
 /*peraturan isi*/
 #isi {
-    padding: 10px;
-    width: 68%;
-    height: auto;
-    background-color: #ffffff;
-    position: relative;
+    padding                 : 10px;
+    width                   : 68%;
+    height                  : auto;
+    background-color        : #ffffff;
+    position                : relative;
 }
 
 #isiberita {
-    padding: 30px;
-    width: 70%;
-    height: auto;
-    background-color: #ffffff;
+    padding                 : 30px;
+    width                   : 70%;
+    height                  : auto;
+    background-color        : #ffffff;
 }
 
 /*peraturan postingan*/
 .isipostingan {
-    width: 98%;
-    height: 150px;
-    margin-bottom: 10px;
-    padding: 5px;
+    width                   : 98%;
+    height                  : 150px;
+    margin-bottom           : 10px;
+    padding                 : 5px;
 }
 
 /*pengaturan gambar yang di halaman depan*/
 .gambardepan {
-    float: left;
-    height: 150px;
-    width: 250px;
-    margin-right: 15px;
-    margin-top: 3px;
-    padding: 1px;
-    border: 1px solid #dddddd;
+    float                   : left;
+    height                  : 150px;
+    width                   : 250px;
+    margin-right            : 15px;
+    margin-top              : 3px;
+    padding                 : 1px;
+    border                  : 1px solid #dddddd;
 }
 
 .gambarsidebar {
-    float: left;
-    height: 50px;
-    width: 50px;
-    margin-right: 15px;
-    margin-top: 3px;
+    float                   : left;
+    height                  : 50px;
+    width                   : 50px;
+    margin-right            : 15px;
+    margin-top              : 3px;
 }
 
 /*peraturan heading2 "judul*/
 .isipostingan h2 {
-    float: bottom;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 3px;
+    float                   : bottom;
+    font-family             : 'Poppins', sans-serif;
+    font-size               : 20px;
+    font-weight             : bold;
+    color                   : #000000;
+    margin-bottom           : 3px;
 }
 
 .isipostingan a {
-    text-decoration: none;
+    text-decoration         : none;
 }
 
 .isipostingan a:hover {
-    color: rgb(9, 255, 0);
+    color                   : rgb(9, 255, 0);
 }
 
 .gambarpostingan {
-    justify-items: center;
-    width: 800px;
-    height: 450px;
-    float: top;
-    margin: 10px 5px 5px 10px;
+    justify-items           : center;
+    width                   : 800px;
+    height                  : 450px;
+    float                   : top;
+    margin                  : 10px 5px 5px 10px;
 }
 
 /*pagination*/
 .pagination{
-    margin-left: 15px;
+    margin-left             : 15px;
 }

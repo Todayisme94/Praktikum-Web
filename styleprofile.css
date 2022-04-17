@@ -1,45 +1,45 @@
 *{
-    font-family: 'poppins', sans-serif;
+    font-family       : 'poppins', sans-serif;
 }
 
 .containerku{
-    width: 100%;
-    height: 110vh;
-    background: url('profileassets/bg.jpg');
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width             : 100%;
+    height            : 110vh;
+    background        : url('profileassets/bg.jpg');
+    display           : flex;
+    align-items       : center;
+    justify-content   : center;
 }
 
 .cardku{
-    width: 60%;
-    height: 95%;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 50px;
-    background: rgba(0, 255, 34, 0.445);
-    border-radius: 20px;
+    width             : 60%;
+    height            : 95%;
+    color             : rgb(0, 0, 0);
+    text-align        : center;
+    padding           : 50px;
+    background        : rgba(0, 255, 34, 0.445);
+    border-radius     : 20px;
 }
 
 .cardku h2{
-    font-size: 25px;
-    margin-top: 20px;
-    font-style: bold;
+    font-size         : 25px;
+    margin-top        : 20px;
+    font-style        : bold;
 }
 
 .cardku p{
-    font-size: 14px;
-    margin: 10px auto;
-    max-width: 3030px;
+    font-size         : 14px;
+    margin            : 10px auto;
+    max-width         : 3030px;
 }
 
 .cardku .linksku img{
-    width: 50px;
-    border-radius: 50%;
-    margin: 10px 5px;
-    transition: background 0.5s;
+    width             : 50px;
+    border-radius     : 50%;
+    margin            : 10px 5px;
+    transition        : background 0.5s;
 }
 
 .cardku .linksku img:hover{
-    background: rgb(204, 255, 211);
+    background        : rgb(204, 255, 211);
 }
